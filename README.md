@@ -1,7 +1,7 @@
 # Charmander
-
+<p align="center">
    <img align="centre" src="http://vignette4.wikia.nocookie.net/pokemon/images/5/55/004Charmander_OS_anime_3.png/revision/latest?cb=20150330015131" alt="charmander" width="200px" height="200px"/>
-
+</p>
 Charmander is designed to ease the process of designing and running useful, creative or just plain weird bots (and other types of applications
 ) that run inside [slack](https://www.slack.com)
 
