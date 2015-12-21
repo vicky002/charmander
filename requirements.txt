@@ -1,0 +1,9 @@
+html5lib==0.9999999
+pyflakes==0.8.1
+beautifulsoup4==4.4.1
+flake8==2.3.0
+slackrtm==0.2.1
+requests==2.5.2
+websocket-client==0.32.0
+mccabe==0.3
+wrapt==1.10.2
