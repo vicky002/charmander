@@ -2,12 +2,27 @@
 <p align="center">
    <img align="centre" src="http://vignette4.wikia.nocookie.net/pokemon/images/5/55/004Charmander_OS_anime_3.png/revision/latest?cb=20150330015131" alt="charmander" width="200px" height="200px"/>
 </p>
-Charmander is designed to ease the process of designing and running useful, creative or just plain weird bots (and other types of applications
-) that run inside [slack](https://www.slack.com)
 
-It provides a semantic interface to sending and receiving messages so that developers can focus on creating novel applications and experiences instead of dealing with API endpoints.
+Everything right in you slack channel!
+------------------------------------
 
+Charmander is a bot for Slack to do everything for you. You don't need to open browser to search for something because Charmander searches everything from Google and shows top results to you right in your slack channel! 
 
+Charmander Supports [Under development]
+------------------
+ - Google [Search Anything from slack]
+ - Mathematical Calculations [Do mathematical calculations]
+ - Weather [Check current weather in your city]
+ - Maps [See maps ]
+ - Gifs [Post gifs]
+ - Emoji [Post emojis]
+ - Stock [Check stocks ]
+ - Images [Post images]
+ - Shuffler [Shuffle anything]
+ - Wiki [Search from Wikipedia]
+
+**Why am I doing this?**
+I created a blot for Slack 'The L' which uses Wolframalpha API. Wolframalpha allows only 2000 calls per month. It was hard to set up and was not of that much use. Charmander directly searches from the Google to answer your queries. And it's all free to use. Its very easy to setup in your slack channel.  
 
 # Installation
 
