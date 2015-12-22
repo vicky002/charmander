@@ -22,7 +22,7 @@ Charmander Supports [Under development]
  - Wiki [Search from Wikipedia]
 
 **Why am I doing this?**
-I created a blot for Slack 'The L' which uses Wolframalpha API. Wolframalpha allows only 2000 calls per month. It was hard to set up and was not of that much use. Charmander directly searches from the Google to answer your queries. And it's all free to use. Its very easy to setup in your slack channel.  
+I created a blot for Slack [The L](https://github.com/vicky002/slack-TheL) which uses Wolframalpha API, check [Tutorial here](http://eulercoder.me/posts/How-to-create-Slack-Bot-using-wolframalpha-API/). Wolframalpha allows only 2000 calls per month. It was hard to set up and was not of that much use. Charmander directly searches from the Google to answer your queries. And it's all free to use. Its very easy to setup in your slack channel.  
 
 # Installation
 
