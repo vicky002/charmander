@@ -8,6 +8,8 @@ Everything right in your slack channel!
 
 Charmander is a bot for Slack to do everything for you. You don't need to open browser to search for something because Charmander searches everything from Google and shows top results to you right in your slack channel! 
 
+**Note**: Done with the Bot configuration files. Next Commit after 5th Jan. (New year celebrations :beers:) Stay tuned for updates!
+
 Charmander Supports [Under development]
 ------------------
  - Google [Search Anything from slack]
