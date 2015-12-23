@@ -3,7 +3,7 @@
    <img align="centre" src="http://vignette4.wikia.nocookie.net/pokemon/images/5/55/004Charmander_OS_anime_3.png/revision/latest?cb=20150330015131" alt="charmander" width="200px" height="200px"/>
 </p>
 
-Everything right in you slack channel!
+Everything right in your slack channel!
 ------------------------------------
 
 Charmander is a bot for Slack to do everything for you. You don't need to open browser to search for something because Charmander searches everything from Google and shows top results to you right in your slack channel! 
@@ -45,4 +45,4 @@ Check [Issue tracker](https://github.com/vicky002/Charmander/issues) for all the
 
 [MIT](https://github.com/vicky002/Charmander/blob/master/LICENSE) Licence (c) [Vikesh Tiwari](https://github.com/vicky002)
 
-Build in :heart: with python
+Build with :heart: in python
