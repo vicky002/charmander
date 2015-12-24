@@ -7,4 +7,6 @@ python:
 install: pip install -r requirements.txt && python setup.py install
 script: make test
 notifications:
+  slack:
+    secure: REBgTefrqbkghfM6iSnraomW2JJUxcE+CKeXzxUAOxxbvFx73wt51brdKQRbPXfpSb5sFqWaNbcB7lmJWTpkhw+m+vn7co5oSfjvU1zTbr4j9Cug7vTVjHjp4azhudZRFC0t1IuBbR+1w3YaRQaVBZ6pqgS/73/vmPqIA6NmnNk=
   email: false
