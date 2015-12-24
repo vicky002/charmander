@@ -41,4 +41,4 @@ publish:
 
 .PHONY: flake8
 flake8:
-	flake8 limbo test
+	flake8 charmander test
