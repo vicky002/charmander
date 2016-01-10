@@ -28,6 +28,7 @@ PYTHON_3 = sys.version_info[0] > 2
 
 logger = logging.getLogger(__name__)
 
+
 class InvalidExtensionDir(Exception):
     def __int__(self, extensiondir):
         '''
@@ -36,6 +37,7 @@ class InvalidExtensionDir(Exception):
         '''
         message = "Unable to find extension directory {0}".format(extensiondir)
         super(InvalidExtensionDir, self).__init__(message)
+
 
 def init_log(config):
     '''
@@ -48,6 +50,7 @@ def init_log(config):
         logging.basicConfig(filename=config.get("logfile"), format=logformat, level=loglevel)
     else:
         logging.basicConfig(format=logformat, level=loglevel)
+
 
 def init_extensions(extensiondir):
     '''
@@ -133,6 +136,7 @@ def run_hook(hooks, hook, *args):
 
     return responses
 
+
 def handle_bot_message(event, server):
     '''
     :param event: Handle bot events
@@ -189,6 +193,7 @@ def init_config():
     getif(config, "logfile", "CHARMANDER_LOGFILE")
     getif(config, "logformat", "CHARMANDER_LOGFORMAT")
     return config
+
 
 def loop(server , test_loop=None):
     """

@@ -10,16 +10,18 @@ Charmander is a bot for Slack to do everything for you. You don't need to open b
 
 **Note**: Done with the Bot configuration files. Next Commit after 5th Jan. (New year celebrations :beers:) Stay tuned for updates!
 
-Charmander Supports [Under development]
+Charmander Supports 
 ------------------
  - Google [Search Anything from slack]
- - Mathematical Calculations [Do mathematical calculations]
+ - Mathematical Calculations [Do mathematical calculations] - done!
  - Weather [Check current weather in your city]
  - Maps [See maps ]
+ - Commits [Get random commit messages] - done!
  - Gifs [Post gifs]
- - Emoji [Post emojis]
+ - Emoji [Post emojis] - done!
  - Stock [Check stocks ]
  - Images [Post images]
+ - YouTube [search videos] - done!
  - Shuffler [Shuffle anything]
  - Wiki [Search from Wikipedia]
 
