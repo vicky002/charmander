@@ -16,6 +16,7 @@ Charmander Supports
  - Mathematical Calculations [Do mathematical calculations] - done!
  - Weather [Check current weather in your city]
  - Maps [See maps ]
+ - urban [See meaning of words] - Done!
  - Commits [Get random commit messages] - done!
  - Gifs [Post gifs]
  - Emoji [Post emojis] - done!
