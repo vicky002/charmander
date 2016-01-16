@@ -1,6 +1,6 @@
 __author__ = 'vikesh'
 
-""" youtube <seach query> will return the first youtube search result for the given term. """
+""" ~youtube <seach query> will return the first youtube search result for the given term. """
 
 import re
 
@@ -27,7 +27,7 @@ def youtube(searchquery):
 
 def on_message(msg, server):
     text = msg.get("text", "")
-    match = re.findall(r"youtube (.*)", text)
+    match = re.findall(r"~youtube (.*)", text)
 
     if not match:
         return

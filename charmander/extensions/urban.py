@@ -37,7 +37,7 @@ def urban(term):
 
 def on_message(msg, server):
     text = msg.get("text", "")
-    match = re.findall(r"urban (.*)", text)
+    match = re.findall(r"~urban (.*)", text)
     if not match:
         return
     searchterm = match[0]
