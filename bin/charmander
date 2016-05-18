@@ -3,7 +3,7 @@
 from charmander import main
 import argparse
 
-parser = argparse.ArgumentParser(description="Run the charmander chatbot for slack")
+parser = argparse.ArgumentParser(description="Run the charmander bot for Slack")
 parser.add_argument('--test', '-t', dest='test', action='store_true', required=False,
                     help='Enter command line mode to enter a charmander repl')
 parser.add_argument('--hook',dest='hook', action='store', default='message',
@@ -11,8 +11,12 @@ parser.add_argument('--hook',dest='hook', action='store', default='message',
 parser.add_argument('-c', dest="command", help='run a single command')
 parser.add_argument('--database', '-d', dest='database_name', default='charmander.sqlite3',
                     help="Where to store the charmander sqlite database. Defaults to charmander.sqlite")
-parser.add_argument('--pluginpath', '-pp', dest='pluginpath', default=None,
+parser.add_argument('--extensionpath', '-ep', dest='extensionpath', default='/home/vikesh/charmander/charmander/extensions',
                     help="The path where charmander should look to find its plugins")
 args = parser.parse_args()
 
 main(args)
+
+
+
+

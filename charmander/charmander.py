@@ -11,11 +11,12 @@ import re                                       # read : https://docs.python.org
 import sys                                      # read : https://docs.python.org/2/library/sys.html
 import importlib
 import ipdb
+import time
 from glob import glob
 
 
-from server import CharmanderServer
-from dummyserver import DummyServer
+from .server import CharmanderServer
+from .dummyserver import DummyServer
 
 from slackrtm import SlackClient
 from slackrtm.server import SlackConnectionError, SlackLoginError
@@ -28,6 +29,7 @@ PYTHON_3 = sys.version_info[0] > 2
 
 logger = logging.getLogger(__name__)
 
+SLACK_TOKEN = ''
 
 class InvalidExtensionDir(Exception):
     def __int__(self, extensiondir):
@@ -255,7 +257,7 @@ def init_server(args, config, Server=CharmanderServer, Client=SlackClient):
     db = init_db(args.database_name)
     hooks = init_extensions(args.extensionpath)
     try:
-        slack = Client(config["token"])
+        slack = Client(SLACK_TOKEN)
     except KeyError:
         logger.error(""" Charmander is unable to find a slack token. The environment variables charmander sees are:
         {0} and the current config is: {1}
