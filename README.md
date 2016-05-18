@@ -2,13 +2,12 @@
 <p align="center">
    <img align="centre" src="http://vignette4.wikia.nocookie.net/pokemon/images/5/55/004Charmander_OS_anime_3.png/revision/latest?cb=20150330015131" alt="charmander" width="200px" height="200px"/>
 </p>
-
 Everything right in your slack channel!
 ------------------------------------
 
 Charmander is a bot for Slack to do everything for you. You don't need to open browser to search for something because Charmander searches everything from Google and shows top results to you right in your slack channel! 
 
-![Example](https://github.com/vicky002/charmander/blob/master/output_ZrAcxK.gif)
+[![Charmander Bot Demo](http://img.youtube.com/vi/u4D6xyIHjY4/0.jpg)](http://www.youtube.com/watch?v=u4D6xyIHjY4)
 
 Charmander Supports 
 ------------------
