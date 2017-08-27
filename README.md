@@ -2,6 +2,14 @@
 <p align="center">
    <img align="centre" src="http://vignette4.wikia.nocookie.net/pokemon/images/5/55/004Charmander_OS_anime_3.png/revision/latest?cb=20150330015131" alt="charmander" width="200px" height="200px"/>
 </p>
+
+---
+### Donate ($1) - Help me in creating more awesome open source projects
+
+[<img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg">](https://www.paypal.me/vikeshtiwari/1)
+
+---
+
 Everything right in your slack channel!
 ------------------------------------
 
