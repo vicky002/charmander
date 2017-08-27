@@ -26,7 +26,7 @@ Charmander Supports
  - Wiki [Search from Wikipedia] - [Done](https://github.com/vicky002/Charmander/blob/master/charmander/extensions/wiki.py)!
 
 **Why am I doing this?**
-I created a blot for Slack [The L](https://github.com/vicky002/slack-TheL) which uses Wolframalpha API, check [Tutorial here](http://eulercoder.me/posts/How-to-create-Slack-Bot-using-wolframalpha-API/). Wolframalpha allows only 2000 calls per month. It was hard to set up and was not of that much use. Charmander directly searches from the Google to answer your queries. And it's all free to use. Its very easy to setup in your slack channel.  
+I created a bot for Slack [The L](https://github.com/vicky002/slack-TheL) which uses Wolframalpha API, check [Tutorial here](http://eulercoder.me/posts/How-to-create-Slack-Bot-using-wolframalpha-API/). Wolframalpha allows only 2000 calls per month. It was hard to set up and was not of that much use. Charmander directly searches from the Google to answer your queries. And it's all free to use. Its very easy to setup in your slack channel.  
 
 # Installation
 
@@ -49,4 +49,4 @@ Check [Issue tracker](https://github.com/vicky002/Charmander/issues) for all the
 
 [MIT](https://github.com/vicky002/Charmander/blob/master/LICENSE) Licence (c) [Vikesh Tiwari](https://github.com/vicky002)
 
-Build with :heart: in python
+Built with :heart: in python
